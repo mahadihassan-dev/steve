@@ -1,0 +1,20 @@
+/* Root CSS :: Start */
+:root {
+    --primary-btn-color: #0B75F1;
+    --primary-font-color: #0B75F1;
+    --primary-font-color-1: #141522;
+    --primary-font-family: ;
+    --btn-border-radius: 10px;
+    --border-property: 1px solid #0B75F1;
+
+}
+/* Root CSS :: End */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    
+}

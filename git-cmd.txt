@@ -1,0 +1,20 @@
+### Git Commit Global Command
+git config --global user.name "mahadihassan-dev"                >> Here Please Use your username
+git config --global user.email "mahadihassan.mhd@gmail.com"     >> Here Please Use your Email
+
+
+>> If you are Commiting New Project then Please Use this CMD
+
+echo "# steve" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/mahadihassan-dev/steve.git
+git push -u origin main
+
+>> While you are Working with Exixting Project then Use this CMD
+
+git remote add origin https://github.com/mahadihassan-dev/steve.git
+git branch -M main
+git push -u origin main
