@@ -1,12 +1,11 @@
 /* Root CSS :: Start */
 :root {
-    --primary-btn-color: #0B75F1;
-    --primary-font-color: #0B75F1;
-    --primary-font-color-1: #141522;
-    --primary-font-family: ;
-    --btn-border-radius: 10px;
-    --border-property: 1px solid #0B75F1;
-
+  --primary-btn-color: #0b75f1;
+  --primary-font-color: #0b75f1;
+  --primary-font-color-1: #141522;
+  --primary-font-family: ;
+  --btn-border-radius: 10px;
+  --border-property: 1px solid #0b75f1;
 }
 /* Root CSS :: End */
 
@@ -16,5 +15,6 @@ h3,
 h4,
 h5,
 h6 {
-    
+  font-family: serif;
+  font-size: 25px;
 }
