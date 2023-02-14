@@ -30,7 +30,6 @@ h6 {
   z-index: -1;
 }
 
-
 /* Home video  */
 .video-container {
   margin: 183px auto;
@@ -45,24 +44,23 @@ h6 {
   z-index: 1;
 }
 
-
 button.home-buy-button.show-button {
   position: absolute;
   bottom: 13%;
   right: 2%;
+  transition: all 300ms;
+  font-weight: 500;
+  z-index: 2;
 }
 
 button {
-  position: absolute;
-  top:50%
-  transition: all 300ms;
-  background: #0075ff;
+  background: #0b75f1;
+  border-radius: 4px;
   color: #ffffff;
   border: none;
-  border-radius: 5px;
-  font-size: 20px;
-  padding: 1em 2em;
-  z-index: 2;
+  font-size: 16px;
+  line-height: 150%;
+  padding: 13px 24px;
 }
 
 button:hover {
@@ -72,12 +70,8 @@ button:hover {
 .home-buy-button {
   transform: translateY(100%);
 }
-/* .divi-delayed-button-2 {
-  transform: translateY(-100%);
-  float: right;
-} */
 
-.home-buy-button{
+.home-buy-button {
   visibility: hidden;
   transition: all 400ms ease !important;
 }
