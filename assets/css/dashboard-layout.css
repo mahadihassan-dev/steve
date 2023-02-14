@@ -1,0 +1,33 @@
+/* 
+
+    Dashboard layout CSS
+
+*/
+
+/* Sidebar :: Start */
+.sidebar {
+    width: 300px;
+    padding: 30px;
+    /* background-color: #fff; */
+    background-color: #F5F5F7;
+}
+.dash-logo {
+    text-align: center;
+}
+.siderbar-menu {
+    margin-top: 30px;
+}
+.siderbar-menu ul {
+    padding: 0;
+}
+ul.side-nav li {
+    margin: 5px 0px;
+    width: 235px;
+}
+ul.side-nav li a {
+    padding: 10px 15px;
+    display: block;
+    background: #fff;
+    text-decoration: none;
+}
+/* Sidebar :: End */
