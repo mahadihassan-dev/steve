@@ -9,21 +9,23 @@
   --primary-btn-color: #0b75f1;
   --global-font-color: #000000;
   --global-dash-font: #9C9CA4;
+  --global-dash-font-1: #8D8D8D;
   --primary-font-color: #0b75f1;
   --primary-font-color-1: #141522;
-  --primary-font-family: ;
+  --primary-font-family: 'Poppins', sans-serif !important;
   --btn-border-radius: 10px;
   --border-property: 1px solid #0b75f1;
   --global-hover-color: #F0F7FE;
   --global-bg-color: #F3F8FE;
   --dash-bg: #fafcff;
+  --global-color-2: #FF4D5E;
 }
 
 /* Root CSS :: End */
 
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
   background: var(--dash-bg);
 }
 h1,
