@@ -7,12 +7,16 @@
 
 /* Home page start  */
 
-// home video 
+// home video
+
+new YouTubeToHtml5({ withAudio: true });
+
+// home video button
 
 (function ($) {
     $(document).ready(function () {
-        $diviVideo = $("#divi-video-container video");
-        videoElement = $("#divi-video-container video")[0];
+        $diviVideo = $("#home-video video");
+        videoElement = $("#home-video video")[0];
         $videoCta = $(".home-buy-button");
 
         $diviVideo.on("timeupdate", function (e) {
@@ -24,3 +28,13 @@
     });
 })(jQuery);
 
+
+
+
+$('.btn-slider').slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    adaptiveHeight: true
+  });

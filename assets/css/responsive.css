@@ -3,3 +3,867 @@
     Responsive Code Will Appear Here
 
 */
+
+/* For Extra Small Device to 320px Device */
+@media only screen and (max-width: 319.5px) {
+  /* home page start  */
+  .home-bg-top {
+    height: 477px;
+  }
+  .home-section {
+    width: 317px;
+  }
+  .home-video-container {
+    margin-top: 261px;
+  }
+  .home-nav button {
+    padding: 7px 35px;
+    font-size: 14px;
+  }
+  /* home page end  */
+
+  /* checkout page start  */
+  .checkout-billing-form.shadow-sm {
+    margin-bottom: 30px;
+  }
+  .checkbox-head {
+    margin-left: 13%;
+  }
+  .checkout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .checkout-billing-form {
+    width: 85%;
+  }
+
+  .checkout-details-section {
+    width: 85%;
+  }
+  /* checkout page end  */
+  /* login page  */
+  .login-form form {
+    padding: 18px !important;
+  }
+
+  .login-form form {
+    top: 455px;
+    width: 272px;
+  }
+  .login-bg img {
+    width: 28%;
+  }
+  /* log in end  */
+  /* book page start  */
+  .books-collection {
+    grid-template-columns: auto;
+  }
+  /* book page end  */
+  .books-collection {
+    grid-template-columns: auto;
+  }
+  /* book page end  */
+
+  /* guides page start  */
+  .guides-collection {
+    grid-template-columns: auto;
+    justify-items: center;
+  }
+  /* guides page end  */
+
+  /* .journals page start*/
+  .journals .journals-collection {
+    grid-template-columns: auto;
+  }
+  /* .journals page end*/
+
+  /* journals details page start  */
+  .journal-details-section {
+    height: 100%;
+  }
+  .journal-details-section h2,
+  .journal-details-section h5 {
+    font-size: 18px;
+  }
+
+  /* video page start */
+  /* and audio page start */
+
+  .courses-video,
+  .courses-audio {
+    padding: 16px;
+  }
+  .courses-video-section,
+  .courses-audio-section {
+    flex-direction: column-reverse;
+  }
+  .courses-video-modul,
+  .courses-audio-modul {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+  }
+  .courses-video .video,
+  .courses-audio .audio {
+    width: 100%;
+  }
+  /* insights cursor section  */
+  .insights-section {
+    flex-direction: column;
+  }
+  .insights-book-section {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+  }
+  .insights-course-section {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    margin-top: 20px;
+  }
+  /* dashbord page  */
+  .dashbord-section{
+    flex-direction: column;
+  }
+
+  .dashobrd-book-section {
+    width:100%;
+  }
+  .dashboard-course-section {
+    width: 100%;
+  }
+}
+
+/* For Smartphone */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  /* home page start  */
+  .home-bg-top {
+    height: 477px;
+  }
+  .home-section {
+    width: 344px;
+  }
+  .home-video-container {
+    margin-top: 261px;
+  }
+  .home-nav button {
+    padding: 7px 35px;
+    font-size: 14px;
+  }
+  /* home page end  */
+
+  /* checkout page start  */
+  .checkout-billing-form.shadow-sm {
+    margin-bottom: 30px;
+  }
+  .checkbox-head {
+    margin-left: 13%;
+  }
+  .checkout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .checkout-billing-form {
+    width: 85%;
+  }
+
+  .checkout-details-section {
+    width: 85%;
+  }
+  /* checkout page end  */
+
+  /* login page start  */
+  .login-form form {
+    top: 455px;
+    width: 320px;
+  }
+  .login-bg img {
+    width: 28%;
+  }
+
+  .login-form form {
+    padding: 18px !important;
+  }
+  /* log in end  */
+  /* book page start  */
+  .books-collection {
+    grid-template-columns: auto auto;
+  }
+  /* book page end  */
+
+  /* guides page start  */
+  .guides-collection {
+    grid-template-columns: auto;
+    justify-items: center;
+  }
+  /* guides page end  */
+  /* guides details page end  */
+  .guide-details-section {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+  .guide-details-title h2 {
+    font-size: 18px;
+  }
+
+  .guide-details-sitebar {
+    width: 100%;
+  }
+  .guide-details .d-flex {
+    flex-direction: column;
+  }
+  .guide-details-sitebar img {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  .guide-details-sitebar h6 {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .guide-details-sitebar p {
+    font-size: 12px;
+    line-height: 12px;
+  }
+  /* guide-details end  */
+
+  /* .journals page start*/
+  .journals .journals-collection {
+    grid-template-columns: auto;
+  }
+  .journals .journals-collection h6 {
+    font-size: 11px;
+  }
+  /* .journals page end*/
+
+  /* journals details page start  */
+  .journal-details-section {
+    height: 100%;
+  }
+  .journal-details-section h2,
+  .journal-details-section h5 {
+    font-size: 18px;
+  }
+
+  /* video page start */
+  /* and audio page start */
+  .courses-video,
+  .courses-audio {
+    padding: 16px;
+  }
+  .courses-video-section,
+  .courses-audio-section {
+    flex-direction: column-reverse;
+  }
+  .courses-video-modul,
+  .courses-audio-modul {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+  }
+  .courses-video .video,
+  .courses-audio .audio {
+    width: 100%;
+  }
+  /* insights cursor section  */
+  .insights-section {
+    flex-direction: column;
+  }
+  .insights-book-section {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+  }
+  .insights-course-section {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    margin-top: 20px;
+  }
+  /* dashbord page  */
+  .dashbord-section{
+    flex-direction: column;
+  }
+
+  .dashobrd-book-section {
+    width:100%;
+  }
+  .dashboard-course-section {
+    width: 100%;
+  }
+}
+
+/* For Small Size Tab */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* home page start  */
+  .home-bg-top {
+    height: 773px;
+  }
+  .home-section {
+    width: 420px;
+  }
+  .home-video-container {
+    margin-top: 495px;
+  }
+  .home-nav button {
+    padding: 7px 35px;
+    font-size: 14px;
+  }
+  /* home page end  */
+
+  /* checkout page start  */
+  .checkout-billing-form.shadow-sm {
+    margin-bottom: 30px;
+  }
+  .checkbox-head {
+    margin-left: 13%;
+  }
+  .checkout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .checkout-billing-form {
+    width: 85%;
+  }
+
+  .checkout-details-section {
+    width: 85%;
+  }
+  /* checkout page end  */
+
+  /* login form start */
+  .login-bg img {
+    width: 23%;
+  }
+  .login-form form {
+    top: 485px;
+  }
+  /* login end 
+   */
+  /* book page start  */
+  .books-collection {
+    grid-template-columns: auto auto;
+  }
+  /* book page end  */
+  /* guides page start  */
+  .guides-collection {
+    grid-template-columns: auto;
+    justify-items: center;
+  }
+  /* guides page end  */
+  /* guides details page end  */
+  .guide-details-section {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+
+  .guide-details-sitebar {
+    width: 100%;
+  }
+  .guide-details .d-flex {
+    flex-direction: column;
+  }
+  .guide-details-sitebar img {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  .guide-details-sitebar h6 {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .guide-details-sitebar p {
+    font-size: 12px;
+    line-height: 12px;
+  }
+  /* guides  details page end  */
+
+  /* .journals page start*/
+  .journals .journals-collection {
+    grid-template-columns: auto;
+  }
+  .journals {
+    margin: 18px 20px;
+  }
+  .journals button {
+    padding: 10px 8px;
+    font-size: 12px;
+  }
+  /* .journals page end*/
+
+  /* journals details page start  */
+  .journal-details-section {
+    height: 100%;
+  }
+  .journal-details-section h2,
+  .journal-details-section h5 {
+    font-size: 18px;
+  }
+  /* journals details page end  */
+  /*write journals page start  */
+  .write-journal {
+    padding: 7px 11px;
+    background-color: #fafcff;
+  }
+
+  .write-journal button {
+    padding: 12px 13px;
+    font-size: 14px;
+  }
+  .write-journal .active {
+    padding: 12px 13px;
+    font-size: 14px;
+  }
+  /* video page start */
+  /* and audio page start */
+  .courses-video,
+  .courses-audio {
+    padding: 16px;
+  }
+  .courses-video-section,
+  .courses-audio-section {
+    flex-direction: column-reverse;
+  }
+  .courses-video-modul,
+  .courses-audio-modul {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+  }
+  .courses-video .video,
+  .courses-audio .audio {
+    width: 100%;
+  }
+  /* insights cursor section  */
+  .insights-section {
+    flex-direction: column;
+  }
+  .insights-book-section {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+  }
+  .insights-course-section {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    margin-top: 20px;
+  }
+  /* dashbord page  */
+  .dashbord-section{
+    flex-direction: column;
+  }
+
+  .dashobrd-book-section {
+    width:100%;
+  }
+  .dashboard-course-section {
+    width: 100%;
+  }
+  .dashobrd-book-section .dashobrd-book {
+    grid-column-gap: 10px;
+    grid-row-gap: 5px;
+  }
+  .dashobrd-book-section .dashobrd-book .dashobrd-book-card h6 {
+    font-size: 12px;
+  }
+  .dashobrd-book-section .dashobrd-book .dashobrd-book-card p {
+    font-size: 10px;
+  }
+}
+
+/* For Big and Average Size Tab */
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  /* home page start  */
+  .home-bg-top {
+    height: 577px;
+  }
+  .home-section {
+    width: 500px;
+  }
+  .home-video-container {
+    margin-top: 261px;
+  }
+  /* home page end  */
+
+  /* checkout page start  */
+  .checkout-details-section {
+    width: 315px;
+  }
+  .checkout-billing-form {
+    width: 442px;
+  }
+  .checkbox-head {
+    margin-left: 3%;
+  }
+  /* checkout page end  */
+  /* book page start  */
+  .books-collection {
+    grid-template-columns: auto auto auto;
+  }
+  /* book page end  */
+  /* guides page start  */
+  .guides-collection {
+    grid-template-columns: auto auto;
+  }
+  /* guides page end  */
+  /* guides page details start  */
+  .guide-details-section {
+    height: 100% !important;
+  }
+  .guide-details-sitebar {
+    padding: 18px 13px;
+  }
+  .guide-details-sitebar .d-flex {
+    flex-direction: column;
+  }
+  .guide-details-sitebar img {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  .guide-details-sitebar h6 {
+    font-size: 13px;
+    line-height: 13px;
+  }
+  .guide-details-sitebar p {
+    font-size: 11px;
+    line-height: 11px;
+  }
+  /* guides  details page end  */
+
+  /* journals page start  */
+  .journals .journals-collection {
+    grid-template-columns: auto auto;
+  }
+  /* journals page end  */
+
+  /* journals details page start  */
+  .journal-details-section {
+    height: 100%;
+  }
+  .journal-details-section h2,
+  .journal-details-section h5 {
+    font-size: 18px;
+  }
+
+  /* journals details page end  */
+  /*write journals page start  */
+  .write-journal {
+    padding: 7px 11px;
+    background-color: #fafcff;
+  }
+
+  .write-journal button {
+    padding: 12px 13px;
+  }
+  .write-journal .active {
+    padding: 12px 13px;
+  }
+
+  /* video page start */
+  /* and audio page start */
+  .courses-video-section,
+  .courses-audio-section {
+    flex-direction: column-reverse;
+  }
+  .courses-video-modul,
+  .courses-audio-modul {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+  }
+  .courses-video .video,
+  .courses-audio .audio {
+    width: 100%;
+  }
+  /* insights cursor section  */
+  .insights-section {
+    flex-direction: column;
+  }
+  .insights-book-section {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+  }
+  .insights-course-section {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    margin-top: 20px;
+  }
+/* dashbord page  */
+  .dashbord-section{
+    flex-direction: column;
+  }
+
+  .dashobrd-book-section {
+    width:100%;
+  }
+  .dashboard-course-section {
+    width: 100%;
+  }
+  .dashobrd-book-section .dashobrd-book {
+    grid-column-gap: 35px;
+    grid-row-gap: 10px;
+  }
+
+}
+
+/* for Tab and Laptop Medium Size Screen */
+@media only screen and (min-width: 980px) and (max-width: 1023px) {
+  /* home page start  */
+  .home-bg-top {
+    height: 509px;
+  }
+  .home-section {
+    width: 835px;
+  }
+  /* home page end  */
+
+  /* check out start  */
+  .checkbox-head {
+    margin-left: 8%;
+  }
+  .checkout-billing-form {
+    width: 558px;
+  }
+
+  .checkout-details-section {
+    width: 306px;
+  }
+  /* checkout end  */
+
+  /* book page start  */
+  .books-collection {
+    grid-template-columns: auto auto auto;
+  }
+  /* book page end  */
+
+  /* guides page start  */
+  .guides-collection {
+    grid-template-columns: auto auto;
+  }
+  /* guides page end  */
+
+  /* guides  details page start  */
+  .guide-details-section {
+    height: 100% !important;
+  }
+
+  .guide-details-sitebar {
+    padding: 18px 13px;
+  }
+  .guide-details-sitebar h6 {
+    font-size: 13px;
+    line-height: 13px;
+  }
+  .guide-details-sitebar p {
+    font-size: 11px;
+    line-height: 11px;
+  }
+  /* guides  details page end  */
+  /* journals page start  */
+  .journals .journals-collection {
+    grid-template-columns: auto auto auto;
+  }
+  /* journals page end  */
+
+  /* journals details page start  */
+  .journal-details-section {
+    height: 100%;
+  }
+  .journal-details-section h2,
+  .journal-details-section h5 {
+    font-size: 20px;
+  }
+  /* video page  */
+  /* and audio  */
+  .courses-video .video,
+  .courses-audio .audio {
+    width: 49%;
+  }
+  .courses-video-modul,
+  .courses-audio-modul {
+    width: 49%;
+  }
+  .courses-video,
+  .courses-audio {
+    padding: 15px 35px;
+  }
+  /* insights cursor section  */
+  .insights-course-section .insights-course .insights-course-card h6 {
+    font-size: 12px;
+  }
+  .insights-course-section .insights-course {
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin: 15px;
+  }
+  .insights-course-section .insights-course .insights-course-card p {
+    font-size: 10px;
+  }
+   /* dashbord page 
+   */
+   .dashobrd-book-section .dashobrd-book {
+    grid-column-gap: 2px;
+
+  }
+  .dashobrd-book-section .dashobrd-book .dashobrd-book-card h6 {
+    font-size: 12px;
+  }
+  .dashobrd-book-section .dashobrd-book .dashobrd-book-card p {
+    font-size: 10px;
+  }
+}
+
+/* for Medium Size Laptop and Full Size Laptop */
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  /* home page start  */
+  .home-bg-top {
+    height: 440px;
+  }
+  .home-section {
+    width: 835px;
+  }
+  /* home page end  */
+
+  /* checkout page start  */
+  .checkout-details-section {
+    width: 355px;
+  }
+  .checkbox-head {
+    margin-left: 6%;
+  }
+  .checkout-billing-form {
+    width: 558px;
+  }
+
+  /* checkout page end  */
+
+  /* book page start  */
+  .books-collection {
+    grid-template-columns: auto auto auto auto;
+  }
+  /* book page end  */
+
+  /* guides page start  */
+  .guides-collection {
+    grid-template-columns: auto auto auto;
+  }
+  /* guides page end  */
+
+  /* guides page details start  */
+
+  .guide-details-sitebar {
+    padding: 18px 25px;
+  }
+  .guide-details-sitebar h6 {
+    font-size: 13px;
+    line-height: 13px;
+  }
+  .guide-details-sitebar p {
+    font-size: 11px;
+    line-height: 11px;
+  }
+
+  /* guides  details page end  */
+
+  .journals .journals-collection {
+    grid-template-columns: auto auto auto;
+  }
+
+  /* courses page start  */
+  .courses-section {
+    padding: 20px;
+  }
+  .courses-collection {
+    padding: 24px;
+    width: 100%;
+  }
+  .courses-section h6 {
+    font-size: 14px;
+  }
+  /* courses page start  */
+  /* video page start */
+  .courses-video,
+  .courses-audio {
+    padding: 10px;
+  }
+  /* insights cursor section  */
+  .insights-course-section .insights-course .insights-course-card h6 {
+    font-size: 12px;
+  }
+  /* dashbord page 
+   */
+   .dashobrd-book-section .dashobrd-book {
+    grid-column-gap: 20px;
+
+  }
+}
+
+/* For Big Size Screen More than 1200px */
+
+@media only screen and (min-width: 1201px) and (max-width: 1360px) {
+  /* book page start  */
+  .books-collection {
+    grid-template-columns: auto auto auto auto;
+  }
+  /* book page end  */
+
+  /* guides page start  */
+  .guides-collection {
+    grid-template-columns: auto auto auto;
+  }
+  /* guides page end  */
+
+  /* courses page start  */
+  .courses-section {
+    padding: 25px;
+  }
+  .courses-collection {
+    padding: 24px;
+    width: 98%;
+  }
+  .courses-section h6 {
+    font-size: 14px;
+  }
+  /* video page start */
+  /* and audio page start */
+  .courses-video,
+  .courses-audio {
+    padding: 10px;
+  }
+
+  /* dashbord page  */
+  .dashobrd-book-section .dashobrd-book {
+    grid-column-gap: 40px;
+    grid-row-gap: 23px;
+
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* check out start  */
+  .checkout-section {
+    margin: 0 auto;
+    max-width: 1180px;
+  }
+
+  .checkout-billing-form {
+    width: 558px;
+  }
+
+  .checkout-details-section {
+    width: 386px;
+  }
+  /* check out end  */
+
+  /* login start */
+  .login-bg img {
+    width: 20%;
+  }
+}

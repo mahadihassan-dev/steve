@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="stylesheet" href="assets/css/dashboard-layout.css">
     <link rel="stylesheet" href="assets/vendor/normalize-css/normalize.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.6/css/swiper.min.css'>
     <!-- Vendor CSS -->
     <link rel="stylesheet" href="assets/vendor/bootstrap-5.3.0/css/bootstrap.css">
     <link rel="stylesheet" href="assets/vendor/bootstrap-icons-1.10.3/bootstrap-icons.css">
@@ -110,7 +111,116 @@
 
         <!-- ./Dashboard Main Content :: Start -->
         <main class="main">
-           
+            <div class="my-dashboard">
+                <h2>
+                    Best Selling Books
+                </h2>
+
+
+                <div class="swiper-container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide mx-3 "><img src="assets/images/books/books (1).png" alt=""></div>
+                        <div class="swiper-slide mx-3 "><img src="assets/images/books/books (2).png" alt=""></div>
+                        <div class="swiper-slide mx-3 "><img src="assets/images/books/books (3).png" alt=""></div>
+                        <div class="swiper-slide mx-3 "><img src="assets/images/books/books (4).png" alt=""></div>
+                        <div class="swiper-slide mx-3 "><img src="assets/images/books/books (5).png" alt=""></div>
+                        <div class="swiper-slide mx-3 "><img src="assets/images/books/books (6).png" alt=""></div>
+                        <div class="swiper-slide mx-3 "><img src="assets/images/books/books (7).png" alt=""></div>
+
+                    </div>
+                    <!-- If we need pagination -->
+                    <!-- <div class="swiper-pagination"></div> -->
+
+                    <!-- If we need navigation buttons -->
+                    <!-- <div class="swiper-button-prev"></div>/ -->
+                    <!-- <div class="swiper-button-next"></div> -->
+                </div>
+
+
+                <div class="d-flex justify-content-around dashbord-section">
+                    <div class="dashobrd-book-section ">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5>Browse Books</h5>
+                            <a href="">View More</a>
+                        </div>
+                        <hr>
+                        <div class="dashobrd-book">
+                            <div class="dashobrd-book-card">
+                                <img src="assets/images/books/books (1).png" alt="">
+                                <h6>The Winter</h6>
+                                <p>Dan Drown</p>
+                            </div>
+                            <div class="dashobrd-book-card">
+                                <img src="assets/images/books/books (2).png" alt="">
+                                <h6>The Winter</h6>
+                                <p>Dan Drown</p>
+                            </div>
+                            <div class="dashobrd-book-card">
+                                <img src="assets/images/books/books (3).png" alt="">
+                                <h6>The Winter</h6>
+                                <p>Dan Drown</p>
+                            </div>
+                            <div class="dashobrd-book-card">
+                                <img src="assets/images/books/books (4).png" alt="">
+                                <h6>The Winter</h6>
+                                <p>Dan Drown</p>
+                            </div>
+                            <div class="dashobrd-book-card">
+                                <img src="assets/images/books/books (5).png" alt="">
+                                <h6>The Winter</h6>
+                                <p>Dan Drown</p>
+                            </div>
+                            <div class="dashobrd-book-card">
+                                <img src="assets/images/books/books (6).png" alt="">
+                                <h6>The Winter</h6>
+                                <p>Dan Drown</p>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+                    <!-- Browse Course section  -->
+
+                    <div class="dashboard-course-section">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5>Browse Course</h5>
+                            <a href="">View More</a>
+                        </div>
+                        <hr />
+                        <div class="dashboard-course">
+                            <div class="dashboard-course-card shadow-sm">
+                                <img src="assets/images/Guides(1).png" alt="">
+                                <h6>Business Ethics and Social Responsibility</h6>
+                                <p>Dan Drown</p>
+
+                            </div>
+                            <div class="dashboard-course-card shadow-sm">
+                                <img src="assets/images/Guides(2).png" alt="">
+                                <h6>Business Ethics and Social Responsibility</h6>
+                                <p>Dan Drown</p>
+
+                            </div>
+                            <div class="dashboard-course-card shadow-sm">
+                                <img src="assets/images/Guides(3).png" alt="">
+                                <h6>Business Ethics and Social Responsibility</h6>
+                                <p>Dan Drown</p>
+
+                            </div>
+                            <div class="dashboard-course-card shadow-sm">
+                                <img src="assets/images/Guides(4).png" alt="">
+                                <h6>Business Ethics and Social Responsibility</h6>
+                                <p>Dan Drown</p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </main>
         <!-- ./Dashboard Main Content :: End -->
 
@@ -118,12 +228,14 @@
 
     </div>
     <!-- Dashboard :: Right Col : End -->
-
-
     <!-- JS -->
     <script src="assets/js/main.js"></script>
     <script src="assets/vendor/bootstrap-5.3.0/js/bootstrap.js"></script>
     <script src="assets/plugins/jQuery/jquery-3.6.3.slim.js"></script>
+
+    <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.6/js/swiper.min.js'></script>
+    <script src="assets/js/dashboard-carousel.js"></script>
 </body>
 
 </html>
